@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sui-json-rpc = { git = "https://github.com/mystenlabs/sui.git", rev = "c935d9c83a65491a2f8ddac5c7986af17224708d" }
